@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="pdfextract_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150208204532"/>
+	<dependencies>
+		<module organisation="org.apache.pdfbox" name="pdfbox">
+			<revision name="1.8.2" status="release" pubdate="20130529191534" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="4519" time="0" location="/Users/alex/.ivy2/cache/org.apache.pdfbox/pdfbox/ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.8.2/pdfbox-1.8.2.pom"/>
+				<caller organisation="default" name="pdfextract_2.10" conf="compile" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="pdfbox" type="bundle" ext="jar" status="no" details="" size="3959589" time="0" location="/Users/alex/.ivy2/cache/org.apache.pdfbox/pdfbox/bundles/pdfbox-1.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.8.2/pdfbox-1.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="jempbox">
+			<revision name="1.8.2" status="release" pubdate="20130529191348" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="3679" time="0" location="/Users/alex/.ivy2/cache/org.apache.pdfbox/jempbox/ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.2/jempbox-1.8.2.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="default, compile, runtime, master" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="1.8.2"/>
+				<artifacts>
+					<artifact name="jempbox" type="bundle" ext="jar" status="no" details="" size="50966" time="0" location="/Users/alex/.ivy2/cache/org.apache.pdfbox/jempbox/bundles/jempbox-1.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.2/jempbox-1.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="fontbox">
+			<revision name="1.8.2" status="release" pubdate="20130529191329" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pdfbox.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="3850" time="0" location="/Users/alex/.ivy2/cache/org.apache.pdfbox/fontbox/ivy-1.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.8.2/fontbox-1.8.2.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="default, compile, runtime, master" rev="1.8.2" rev-constraint-default="1.8.2" rev-constraint-dynamic="1.8.2" callerrev="1.8.2"/>
+				<artifacts>
+					<artifact name="fontbox" type="bundle" ext="jar" status="no" details="" size="205152" time="0" location="/Users/alex/.ivy2/cache/org.apache.pdfbox/fontbox/bundles/fontbox-1.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.8.2/fontbox-1.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071126202410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="3971" time="0" location="/Users/alex/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="org.apache.pdfbox" name="pdfbox" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.2"/>
+				<caller organisation="org.apache.pdfbox" name="fontbox" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.2"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="/Users/alex/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20140318214629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/Users/alex/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<caller organisation="default" name="pdfextract_2.10" conf="compile" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="/Users/alex/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
