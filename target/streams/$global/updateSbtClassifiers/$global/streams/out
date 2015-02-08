@@ -592,11 +592,19 @@
 [debug] == resolving dependencies default#pdfextract$sbt_2.10;0.1-SNAPSHOT->commons-io#commons-io;2.0.1 [default->runtime]
 [debug] == resolving dependencies default#pdfextract$sbt_2.10;0.1-SNAPSHOT->commons-io#commons-io;2.0.1 [default->compile]
 [debug] == resolving dependencies default#pdfextract$sbt_2.10;0.1-SNAPSHOT->commons-io#commons-io;2.0.1 [default->master]
+[debug] == resolving dependencies default#pdfextract$sbt_2.10;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.12.0 [default->default(compile)]
+[info] Resolving com.eed3si9n#sbt-assembly;0.12.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.12.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.12.0
+[debug] 	typesafe-ivy-releases: revision in cache: com.eed3si9n#sbt-assembly;0.12.0
+[debug] 	found com.eed3si9n#sbt-assembly;0.12.0 in sbt-chain
+[debug] 	[0.12.0] com.eed3si9n#sbt-assembly;0.12.0
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.5!sbt.jar
 [debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar
+[debug] 	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.12.0!sbt-assembly.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.5!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.5!compiler-interface-bin.jar
@@ -642,9 +650,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.5!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
-[debug] :: resolution report :: resolve 222ms :: artifacts dl 11ms
+[debug] :: resolution report :: resolve 733ms :: artifacts dl 25ms
 [debug] 	report for default#pdfextract$sbt_2.10;0.1-SNAPSHOT default produced in /Users/alex/Projects/pdfExtract/target/resolution-cache/reports/default-pdfextract$sbt_2.10-default.xml
-[debug] 	resolve done (222ms resolve - 11ms download)
+[debug] 	resolve done (733ms resolve - 25ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#pdfextract$sources_2.10;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -959,6 +967,13 @@
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->commons-io#commons-io;2.0.1 [default->runtime]
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->commons-io#commons-io;2.0.1 [default->compile]
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->commons-io#commons-io;2.0.1 [default->master]
+[debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.12.0 [default->default(compile)]
+[info] Resolving com.eed3si9n#sbt-assembly;0.12.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.eed3si9n#sbt-assembly;0.12.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.eed3si9n#sbt-assembly;0.12.0
+[debug] 	typesafe-ivy-releases: revision in cache: com.eed3si9n#sbt-assembly;0.12.0
+[debug] 	found com.eed3si9n#sbt-assembly;0.12.0 in sbt-chain
+[debug] 	[0.12.0] com.eed3si9n#sbt-assembly;0.12.0
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.5!sbt.jar(src)
@@ -1007,6 +1022,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.5!precompiled-2_9_3.jar(src)
 [debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(src)
-[debug] :: resolution report :: resolve 78ms :: artifacts dl 13ms
+[debug] 	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.12.0!sbt-assembly.jar(src)
+[debug] :: resolution report :: resolve 100ms :: artifacts dl 20ms
 [debug] 	report for default#pdfextract$sources_2.10;0.1-SNAPSHOT default produced in /Users/alex/Projects/pdfExtract/target/resolution-cache/reports/default-pdfextract$sources_2.10-default.xml
-[debug] 	resolve done (78ms resolve - 13ms download)
+[debug] 	resolve done (100ms resolve - 20ms download)

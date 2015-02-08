@@ -4,7 +4,7 @@
 		module="pdfextract$sources_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150208204904"
+		publication="20150208210133"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
@@ -149,6 +149,9 @@
 		</dependency>
 		<dependency org="commons-io" name="commons-io" rev="2.0.1" transitive="false" conf="default->default(compile)">
 			<artifact name="commons-io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.eed3si9n" name="sbt-assembly" rev="0.12.0" transitive="false" conf="default->default(compile)" scalaVersion="2.10" sbtVersion="0.13">
+			<artifact name="sbt-assembly" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 	</dependencies>
 </ivy-module>
