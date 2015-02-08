@@ -1,7 +1,9 @@
 [debug] Other repositories:
 [debug] Default repositories:
+[debug] 	Raw(ProjectResolver(inter-project, mapped: default#global-plugins;0.0))
+[debug] 	URLRepository(typesafe-ivy-releases,Patterns(ivyPatterns=List(http://repo.typesafe.com/typesafe/ivy-releases/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(http://repo.typesafe.com/typesafe/ivy-releases/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false, descriptorOptional=false, skipConsistencyCheck=false))
+[debug] 	URLRepository(sbt-plugin-releases,Patterns(ivyPatterns=List(http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false, descriptorOptional=false, skipConsistencyCheck=false))
 [debug] 	FileRepository(local,FileConfiguration(true,None),Patterns(ivyPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false, descriptorOptional=false, skipConsistencyCheck=false))
-[debug] 	URLRepository(typesafe-ivy-releases,Patterns(ivyPatterns=List(http://repo.typesafe.com/typesafe/ivy-releases/[organization]/[module]/[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(http://repo.typesafe.com/typesafe/ivy-releases/[organization]/[module]/[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false, descriptorOptional=false, skipConsistencyCheck=false))
 [debug] 	public: http://repo1.maven.org/maven2/
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#pdfextract$sbt_2.10;0.1-SNAPSHOT
@@ -14,11 +16,13 @@
 [info] Resolving org.scala-sbt#sbt;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#sbt;0.13.5
 [debug] 	found org.scala-sbt#sbt;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -28,6 +32,7 @@
 [info] Resolving org.scala-sbt#main;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#main;0.13.5
 [debug] 	found org.scala-sbt#main;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#main;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -37,6 +42,7 @@
 [info] Resolving org.scala-sbt#actions;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#actions;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#actions;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#actions;0.13.5
 [debug] 	found org.scala-sbt#actions;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -46,11 +52,13 @@
 [info] Resolving org.scala-sbt#classpath;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classpath;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#classpath;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#classpath;0.13.5
 [debug] 	found org.scala-sbt#classpath;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#classpath;0.13.5->org.scala-lang#scala-compiler;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-compiler;2.10.4
 [debug] 	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#classpath;0.13.5->org.scala-lang#scala-compiler;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#classpath;0.13.5->org.scala-lang#scala-compiler;2.10.4 [compile->compile]
@@ -62,6 +70,7 @@
 [info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)]
@@ -84,6 +93,7 @@
 [info] Resolving org.scala-sbt#launcher-interface;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#launcher-interface;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#launcher-interface;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#launcher-interface;0.13.5
 [debug] 	found org.scala-sbt#launcher-interface;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#launcher-interface;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#launcher-interface;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -93,6 +103,7 @@
 [info] Resolving org.scala-sbt#interface;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#interface;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#interface;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#interface;0.13.5
 [debug] 	found org.scala-sbt#interface;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#interface;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#interface;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -102,6 +113,7 @@
 [info] Resolving org.scala-sbt#io;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#io;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#io;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#io;0.13.5
 [debug] 	found org.scala-sbt#io;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#io;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#io;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -111,6 +123,7 @@
 [info] Resolving org.scala-sbt#control;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#control;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#control;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#control;0.13.5
 [debug] 	found org.scala-sbt#control;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#control;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#control;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -120,6 +133,7 @@
 [info] Resolving org.scala-sbt#completion;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#completion;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#completion;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#completion;0.13.5
 [debug] 	found org.scala-sbt#completion;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -129,6 +143,7 @@
 [info] Resolving org.scala-sbt#collections;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#collections;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#collections;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#collections;0.13.5
 [debug] 	found org.scala-sbt#collections;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#collections;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#collections;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -140,6 +155,7 @@
 [info] Resolving jline#jline;2.11 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.11 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.11
+[debug] 	typesafe-ivy-releases: revision in cache: jline#jline;2.11
 [debug] 	found jline#jline;2.11 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.5->jline#jline;2.11 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.5->jline#jline;2.11 [compile->compile]
@@ -148,6 +164,7 @@
 [info] Resolving org.scala-sbt#api;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#api;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#api;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#api;0.13.5
 [debug] 	found org.scala-sbt#api;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#api;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#api;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -158,6 +175,7 @@
 [info] Resolving org.scala-sbt#compiler-integration;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-integration;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-integration;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#compiler-integration;0.13.5
 [debug] 	found org.scala-sbt#compiler-integration;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#compiler-integration;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#compiler-integration;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -167,6 +185,7 @@
 [info] Resolving org.scala-sbt#incremental-compiler;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#incremental-compiler;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#incremental-compiler;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#incremental-compiler;0.13.5
 [debug] 	found org.scala-sbt#incremental-compiler;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#incremental-compiler;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#incremental-compiler;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -178,6 +197,7 @@
 [info] Resolving org.scala-sbt#logging;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logging;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logging;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#logging;0.13.5
 [debug] 	found org.scala-sbt#logging;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#logging;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#logging;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -188,6 +208,7 @@
 [info] Resolving org.scala-sbt#process;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#process;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#process;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#process;0.13.5
 [debug] 	found org.scala-sbt#process;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#process;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#process;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -202,6 +223,7 @@
 [info] Resolving org.scala-sbt#relation;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#relation;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#relation;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#relation;0.13.5
 [debug] 	found org.scala-sbt#relation;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#relation;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#relation;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -213,6 +235,7 @@
 [info] Resolving org.scala-sbt#compile;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compile;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compile;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#compile;0.13.5
 [debug] 	found org.scala-sbt#compile;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#compile;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#compile;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -227,6 +250,7 @@
 [info] Resolving org.scala-sbt#persist;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#persist;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#persist;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#persist;0.13.5
 [debug] 	found org.scala-sbt#persist;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#persist;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#persist;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -238,6 +262,7 @@
 [info] Resolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-tools.sbinary#sbinary_2.10;0.4.2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-tools.sbinary#sbinary_2.10;0.4.2
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-tools.sbinary#sbinary_2.10;0.4.2
 [debug] 	found org.scala-tools.sbinary#sbinary_2.10;0.4.2 in sbt-chain
 [debug] == resolving dependencies org.scala-tools.sbinary#sbinary_2.10;0.4.2->org.scala-lang#scala-library;2.10.2 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-tools.sbinary#sbinary_2.10;0.4.2->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -249,6 +274,7 @@
 [info] Resolving org.scala-sbt#classfile;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classfile;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#classfile;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#classfile;0.13.5
 [debug] 	found org.scala-sbt#classfile;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#classfile;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#classfile;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -261,6 +287,7 @@
 [info] Resolving org.scala-sbt#compiler-ivy-integration;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-ivy-integration;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-ivy-integration;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#compiler-ivy-integration;0.13.5
 [debug] 	found org.scala-sbt#compiler-ivy-integration;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#compiler-ivy-integration;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#compiler-ivy-integration;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -270,6 +297,7 @@
 [info] Resolving org.scala-sbt#ivy;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#ivy;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#ivy;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#ivy;0.13.5
 [debug] 	found org.scala-sbt#ivy;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#ivy;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#ivy;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -281,6 +309,7 @@
 [info] Resolving org.scala-sbt#cross;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#cross;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#cross;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#cross;0.13.5
 [debug] 	found org.scala-sbt#cross;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#cross;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#cross;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -292,6 +321,7 @@
 [info] Resolving org.apache.ivy#ivy;2.3.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.ivy#ivy;2.3.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.apache.ivy#ivy;2.3.0
+[debug] 	typesafe-ivy-releases: revision in cache: org.apache.ivy#ivy;2.3.0
 [debug] 	found org.apache.ivy#ivy;2.3.0 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#ivy;0.13.5->org.apache.ivy#ivy;2.3.0 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#ivy;0.13.5->org.apache.ivy#ivy;2.3.0 [compile->compile]
@@ -300,6 +330,7 @@
 [info] Resolving com.jcraft#jsch;0.1.46 ...
 [debug] sbt-chain: Checking cache for: dependency: com.jcraft#jsch;0.1.46 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.jcraft#jsch;0.1.46
+[debug] 	typesafe-ivy-releases: revision in cache: com.jcraft#jsch;0.1.46
 [debug] 	found com.jcraft#jsch;0.1.46 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#ivy;0.13.5->com.jcraft#jsch;0.1.46 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#ivy;0.13.5->com.jcraft#jsch;0.1.46 [compile->compile]
@@ -314,6 +345,7 @@
 [info] Resolving org.scala-sbt#run;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#run;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#run;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#run;0.13.5
 [debug] 	found org.scala-sbt#run;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#run;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#run;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -328,6 +360,7 @@
 [info] Resolving org.scala-sbt#task-system;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#task-system;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#task-system;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#task-system;0.13.5
 [debug] 	found org.scala-sbt#task-system;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#task-system;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#task-system;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -337,6 +370,7 @@
 [info] Resolving org.scala-sbt#tasks;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#tasks;0.13.5 {compile=[default(compile)], test=[test]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#tasks;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#tasks;0.13.5
 [debug] 	found org.scala-sbt#tasks;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#tasks;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#tasks;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -353,6 +387,7 @@
 [info] Resolving org.scala-sbt#tracking;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#tracking;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#tracking;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#tracking;0.13.5
 [debug] 	found org.scala-sbt#tracking;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#tracking;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#tracking;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -362,6 +397,7 @@
 [info] Resolving org.scala-sbt#cache;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#cache;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#cache;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#cache;0.13.5
 [debug] 	found org.scala-sbt#cache;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#cache;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#cache;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -375,6 +411,7 @@
 [info] Resolving org.scala-sbt#testing;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#testing;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#testing;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#testing;0.13.5
 [debug] 	found org.scala-sbt#testing;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#testing;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#testing;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -388,6 +425,7 @@
 [info] Resolving org.scala-sbt#test-agent;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-agent;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-agent;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#test-agent;0.13.5
 [debug] 	found org.scala-sbt#test-agent;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#test-agent;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#test-agent;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -397,6 +435,7 @@
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#test-agent;0.13.5->org.scala-sbt#test-interface;1.0 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#test-agent;0.13.5->org.scala-sbt#test-interface;1.0 [compile->compile]
@@ -409,6 +448,7 @@
 [info] Resolving org.scala-sbt#main-settings;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main-settings;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main-settings;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#main-settings;0.13.5
 [debug] 	found org.scala-sbt#main-settings;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#main-settings;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main-settings;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -418,6 +458,7 @@
 [info] Resolving org.scala-sbt#apply-macro;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#apply-macro;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#apply-macro;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#apply-macro;0.13.5
 [debug] 	found org.scala-sbt#apply-macro;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#apply-macro;0.13.5->org.scala-lang#scala-compiler;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#apply-macro;0.13.5->org.scala-lang#scala-compiler;2.10.4 [compile->runtime]
@@ -437,6 +478,7 @@
 [info] Resolving org.scala-sbt#command;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#command;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#command;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#command;0.13.5
 [debug] 	found org.scala-sbt#command;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#command;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#command;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -463,6 +505,7 @@
 [info] Resolving org.scala-sbt#logic;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logic;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logic;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#logic;0.13.5
 [debug] 	found org.scala-sbt#logic;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#logic;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#logic;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -477,6 +520,7 @@
 [info] Resolving org.scala-sbt#compiler-interface;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-interface;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-interface;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#compiler-interface;0.13.5
 [debug] 	found org.scala-sbt#compiler-interface;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#compiler-interface;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime]
@@ -487,6 +531,7 @@
 [info] Resolving org.scala-sbt#precompiled-2_8_2;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_8_2;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_8_2;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#precompiled-2_8_2;0.13.5
 [debug] 	found org.scala-sbt#precompiled-2_8_2;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_8_2;0.13.5->org.scala-lang#scala-library;2.8.2 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_8_2;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -498,6 +543,7 @@
 [info] Resolving org.scala-sbt#precompiled-2_9_2;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_2;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_2;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#precompiled-2_9_2;0.13.5
 [debug] 	found org.scala-sbt#precompiled-2_9_2;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_2;0.13.5->org.scala-lang#scala-library;2.9.2 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_2;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -509,6 +555,7 @@
 [info] Resolving org.scala-sbt#precompiled-2_9_3;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_3;0.13.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_3;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#precompiled-2_9_3;0.13.5
 [debug] 	found org.scala-sbt#precompiled-2_9_3;0.13.5 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.9.3 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -520,6 +567,7 @@
 [info] Resolving com.github.mpeltonen#sbt-idea;1.6.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.6.0 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.6.0
+[debug] 	typesafe-ivy-releases: revision in cache: com.github.mpeltonen#sbt-idea;1.6.0
 [debug] 	found com.github.mpeltonen#sbt-idea;1.6.0 in sbt-chain
 [debug] 	[1.6.0] com.github.mpeltonen#sbt-idea;1.6.0
 [debug] == resolving dependencies default#pdfextract$sbt_2.10;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [default->runtime]
@@ -528,6 +576,7 @@
 [info] Resolving commons-io#commons-io;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.0.1
+[debug] 	typesafe-ivy-releases: revision in cache: commons-io#commons-io;2.0.1
 [debug] 	found commons-io#commons-io;2.0.1 in sbt-chain
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->runtime(*)]
@@ -593,9 +642,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.5!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
-[debug] :: resolution report :: resolve 360ms :: artifacts dl 14ms
+[debug] :: resolution report :: resolve 222ms :: artifacts dl 11ms
 [debug] 	report for default#pdfextract$sbt_2.10;0.1-SNAPSHOT default produced in /Users/alex/Projects/pdfExtract/target/resolution-cache/reports/default-pdfextract$sbt_2.10-default.xml
-[debug] 	resolve done (360ms resolve - 14ms download)
+[debug] 	resolve done (222ms resolve - 11ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#pdfextract$sources_2.10;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -607,11 +656,13 @@
 [info] Resolving org.scala-sbt#sbt;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#sbt;0.13.5
 [debug] 	found org.scala-sbt#sbt;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [default->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [default->runtime]
@@ -621,21 +672,25 @@
 [info] Resolving org.scala-sbt#main;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#main;0.13.5
 [debug] 	found org.scala-sbt#main;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#actions;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#actions;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#actions;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#actions;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#actions;0.13.5
 [debug] 	found org.scala-sbt#actions;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#classpath;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#classpath;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classpath;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#classpath;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#classpath;0.13.5
 [debug] 	found org.scala-sbt#classpath;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [default->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-compiler;2.10.4
 [debug] 	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [default->runtime]
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [default->compile]
@@ -644,6 +699,7 @@
 [info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.4 [default->runtime]
@@ -653,37 +709,44 @@
 [info] Resolving org.scala-sbt#launcher-interface;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#launcher-interface;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#launcher-interface;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#launcher-interface;0.13.5
 [debug] 	found org.scala-sbt#launcher-interface;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#interface;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#interface;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#interface;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#interface;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#interface;0.13.5
 [debug] 	found org.scala-sbt#interface;0.13.5 in sbt-chain
 [debug] 	[0.13.5] org.scala-sbt#interface;0.13.5
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#io;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#io;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#io;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#io;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#io;0.13.5
 [debug] 	found org.scala-sbt#io;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#control;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#control;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#control;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#control;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#control;0.13.5
 [debug] 	found org.scala-sbt#control;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#completion;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#completion;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#completion;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#completion;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#completion;0.13.5
 [debug] 	found org.scala-sbt#completion;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#collections;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#collections;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#collections;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#collections;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#collections;0.13.5
 [debug] 	found org.scala-sbt#collections;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->jline#jline;2.11 [default->default(compile)]
 [info] Resolving jline#jline;2.11 ...
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.11 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.11
+[debug] 	typesafe-ivy-releases: revision in cache: jline#jline;2.11
 [debug] 	found jline#jline;2.11 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->jline#jline;2.11 [default->runtime]
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->jline#jline;2.11 [default->compile]
@@ -692,71 +755,85 @@
 [info] Resolving org.scala-sbt#api;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#api;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#api;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#api;0.13.5
 [debug] 	found org.scala-sbt#api;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#compiler-integration;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#compiler-integration;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-integration;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-integration;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#compiler-integration;0.13.5
 [debug] 	found org.scala-sbt#compiler-integration;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#incremental-compiler;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#incremental-compiler;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#incremental-compiler;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#incremental-compiler;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#incremental-compiler;0.13.5
 [debug] 	found org.scala-sbt#incremental-compiler;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#logging;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#logging;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logging;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logging;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#logging;0.13.5
 [debug] 	found org.scala-sbt#logging;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#process;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#process;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#process;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#process;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#process;0.13.5
 [debug] 	found org.scala-sbt#process;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#relation;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#relation;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#relation;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#relation;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#relation;0.13.5
 [debug] 	found org.scala-sbt#relation;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#compile;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#compile;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compile;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compile;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#compile;0.13.5
 [debug] 	found org.scala-sbt#compile;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#persist;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#persist;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#persist;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#persist;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#persist;0.13.5
 [debug] 	found org.scala-sbt#persist;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [default->default(compile)]
 [info] Resolving org.scala-tools.sbinary#sbinary_2.10;0.4.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-tools.sbinary#sbinary_2.10;0.4.2 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-tools.sbinary#sbinary_2.10;0.4.2
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-tools.sbinary#sbinary_2.10;0.4.2
 [debug] 	found org.scala-tools.sbinary#sbinary_2.10;0.4.2 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#classfile;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#classfile;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classfile;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#classfile;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#classfile;0.13.5
 [debug] 	found org.scala-sbt#classfile;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#compiler-ivy-integration;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#compiler-ivy-integration;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-ivy-integration;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-ivy-integration;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#compiler-ivy-integration;0.13.5
 [debug] 	found org.scala-sbt#compiler-ivy-integration;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#ivy;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#ivy;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#ivy;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#ivy;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#ivy;0.13.5
 [debug] 	found org.scala-sbt#ivy;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#cross;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#cross;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#cross;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#cross;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#cross;0.13.5
 [debug] 	found org.scala-sbt#cross;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.apache.ivy#ivy;2.3.0 [default->default(compile)]
 [info] Resolving org.apache.ivy#ivy;2.3.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.ivy#ivy;2.3.0 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.apache.ivy#ivy;2.3.0
+[debug] 	typesafe-ivy-releases: revision in cache: org.apache.ivy#ivy;2.3.0
 [debug] 	found org.apache.ivy#ivy;2.3.0 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.apache.ivy#ivy;2.3.0 [default->runtime]
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.apache.ivy#ivy;2.3.0 [default->compile]
@@ -765,6 +842,7 @@
 [info] Resolving com.jcraft#jsch;0.1.46 ...
 [debug] sbt-chain: Checking cache for: dependency: com.jcraft#jsch;0.1.46 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.jcraft#jsch;0.1.46
+[debug] 	typesafe-ivy-releases: revision in cache: com.jcraft#jsch;0.1.46
 [debug] 	found com.jcraft#jsch;0.1.46 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->com.jcraft#jsch;0.1.46 [default->runtime]
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->com.jcraft#jsch;0.1.46 [default->compile]
@@ -773,41 +851,49 @@
 [info] Resolving org.scala-sbt#run;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#run;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#run;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#run;0.13.5
 [debug] 	found org.scala-sbt#run;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#task-system;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#task-system;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#task-system;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#task-system;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#task-system;0.13.5
 [debug] 	found org.scala-sbt#task-system;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#tasks;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#tasks;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#tasks;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#tasks;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#tasks;0.13.5
 [debug] 	found org.scala-sbt#tasks;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#tracking;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#tracking;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#tracking;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#tracking;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#tracking;0.13.5
 [debug] 	found org.scala-sbt#tracking;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#cache;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#cache;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#cache;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#cache;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#cache;0.13.5
 [debug] 	found org.scala-sbt#cache;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#testing;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#testing;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#testing;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#testing;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#testing;0.13.5
 [debug] 	found org.scala-sbt#testing;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#test-agent;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#test-agent;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-agent;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-agent;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#test-agent;0.13.5
 [debug] 	found org.scala-sbt#test-agent;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#test-interface;1.0 [default->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#test-interface;1.0 [default->runtime]
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#test-interface;1.0 [default->compile]
@@ -816,41 +902,49 @@
 [info] Resolving org.scala-sbt#main-settings;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main-settings;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main-settings;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#main-settings;0.13.5
 [debug] 	found org.scala-sbt#main-settings;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#apply-macro;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#apply-macro;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#apply-macro;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#apply-macro;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#apply-macro;0.13.5
 [debug] 	found org.scala-sbt#apply-macro;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#command;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#command;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#command;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#command;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#command;0.13.5
 [debug] 	found org.scala-sbt#command;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#logic;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#logic;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logic;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logic;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#logic;0.13.5
 [debug] 	found org.scala-sbt#logic;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#precompiled-2_8_2;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#precompiled-2_8_2;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_8_2;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_8_2;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#precompiled-2_8_2;0.13.5
 [debug] 	found org.scala-sbt#precompiled-2_8_2;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#precompiled-2_9_2;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#precompiled-2_9_2;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_2;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_2;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#precompiled-2_9_2;0.13.5
 [debug] 	found org.scala-sbt#precompiled-2_9_2;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->org.scala-sbt#precompiled-2_9_3;0.13.5 [default->default(compile)]
 [info] Resolving org.scala-sbt#precompiled-2_9_3;0.13.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_3;0.13.5 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_3;0.13.5
+[debug] 	typesafe-ivy-releases: revision in cache: org.scala-sbt#precompiled-2_9_3;0.13.5
 [debug] 	found org.scala-sbt#precompiled-2_9_3;0.13.5 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [default->default(compile)]
 [info] Resolving com.github.mpeltonen#sbt-idea;1.6.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.6.0 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.6.0
+[debug] 	typesafe-ivy-releases: revision in cache: com.github.mpeltonen#sbt-idea;1.6.0
 [debug] 	found com.github.mpeltonen#sbt-idea;1.6.0 in sbt-chain
 [debug] 	[1.6.0] com.github.mpeltonen#sbt-idea;1.6.0
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [default->runtime]
@@ -860,6 +954,7 @@
 [info] Resolving commons-io#commons-io;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.0.1
+[debug] 	typesafe-ivy-releases: revision in cache: commons-io#commons-io;2.0.1
 [debug] 	found commons-io#commons-io;2.0.1 in sbt-chain
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->commons-io#commons-io;2.0.1 [default->runtime]
 [debug] == resolving dependencies default#pdfextract$sources_2.10;0.1-SNAPSHOT->commons-io#commons-io;2.0.1 [default->compile]
@@ -912,6 +1007,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.5!precompiled-2_9_3.jar(src)
 [debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(src)
-[debug] :: resolution report :: resolve 87ms :: artifacts dl 15ms
+[debug] :: resolution report :: resolve 78ms :: artifacts dl 13ms
 [debug] 	report for default#pdfextract$sources_2.10;0.1-SNAPSHOT default produced in /Users/alex/Projects/pdfExtract/target/resolution-cache/reports/default-pdfextract$sources_2.10-default.xml
-[debug] 	resolve done (87ms resolve - 15ms download)
+[debug] 	resolve done (78ms resolve - 13ms download)

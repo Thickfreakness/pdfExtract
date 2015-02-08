@@ -4,7 +4,7 @@
 		module="pdfextract$sources_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150208204412"
+		publication="20150208204904"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
